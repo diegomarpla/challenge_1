@@ -1,0 +1,30 @@
+
+.fondo{
+    width:100%;
+    color:#fff;
+    background: linear-gradient(45deg, red, blue, purple, yellow);
+    background-size: 400% 400%;
+    animation: cambiar 7s ease infinite; 
+}
+
+.foot{
+  
+  bottom: 0;
+  width: 100%;
+  margin-top: 5%;
+}
+
+@keyframes cambiar {
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+  @media only screen and (max-width: 576px) {
+    .boton-chico{
+        width: 90%;
+    }
+
+        
+  }
+ 
